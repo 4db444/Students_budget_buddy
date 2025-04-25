@@ -64,3 +64,10 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 
 **Sécurité :** Données chiffrées, sécurisation de l’API, validation serveur et client.
 
+# Tableau des utilisateurs et rôles
+
+|Type d’utilisateur|Description|Rôles / Actions autorisées dans l’application|
+|------------------|-----------|---------------------------------------------|
+|Guest|Un visiteur qui souhaite utiliser rapidement l'application pour partager une facture avec des amis, sans créer de compte|- Access app without full registration <br>- Create a temporary group for bill splitting <br> - Enter and split expenses <br>- Upgrade to full account to save data permanently |
+|Utilisateur simple|Étudiant, salarié ou freelance souhaitant suivre ses finances personnelles|- Créer un compte / Se connecter <br>- Ajouter/modifier/supprimer des revenus et dépenses <br>- Créer des catégories personnalisées <br>- Générer un rapport mensuel <br>- Visualiser les statistiques par période <br>- Définir des dépenses récurrentes (loyer, abonnements...) <br>- Recevoir des alertes de dépassement de budget <br> - Créer ou rejoindre un groupe de dépenses partagées (fonctionnalité future) <br> - Diviser les dépenses et suivre les remboursements |
+|Administrateur|ME|- Gérer les utilisateurs <br> - Surveiller toutes les transactions et l’activité du système <br> - Gérer les groupes partagés <br> - Configurer les paramètres globaux de l’application <br> - Modifier ou réinitialiser les budgets ou les données des utilisateurs si nécessaire|
