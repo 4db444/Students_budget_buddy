@@ -77,3 +77,4 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 Ce projet comporte deux diagrammes principaux :
 
 1. [Diagramme de cas d'utilisation](https://lucid.app/lucidchart/217ede86-dbcf-4516-ba52-2f2ec69a63fd/edit?viewport_loc=-2606%2C-858%2C7994%2C3800%2C0_0&invitationId=inv_dc428848-5f7d-4b6d-be30-03ba79a4a1f6)
+1. [conception de base de données](https://lucid.app/lucidchart/308214da-29ff-42ae-a295-966333af3613/edit?viewport_loc=63%2C-216%2C5116%2C2432%2C0_0&invitationId=inv_a2490311-c2ba-425a-ba70-f01cc3d38781)
