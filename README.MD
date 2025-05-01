@@ -68,6 +68,12 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 
 |Type d’utilisateur|Description|Rôles / Actions autorisées dans l’application|
 |------------------|-----------|---------------------------------------------|
-|Guest|Un visiteur qui souhaite utiliser rapidement l'application pour partager une facture avec des amis, sans créer de compte|- Access app without full registration <br>- Create a temporary group for bill splitting <br> - Enter and split expenses <br>- Upgrade to full account to save data permanently |
+|Guest|Un visiteur qui souhaite utiliser rapidement l'application pour partager une facture avec des amis, sans créer de compte|- Accéder à l'application sans inscription complète <br>- Créer un groupe temporaire pour le partage de facture <br>- Saisir et diviser les dépenses <br>- Passer à un compte complet pour sauvegarder les données de manière permanente |
 |Utilisateur simple|Étudiant, salarié ou freelance souhaitant suivre ses finances personnelles|- Créer un compte / Se connecter <br>- Ajouter/modifier/supprimer des revenus et dépenses <br>- Créer des catégories personnalisées <br>- Générer un rapport mensuel <br>- Visualiser les statistiques par période <br>- Définir des dépenses récurrentes (loyer, abonnements...) <br>- Recevoir des alertes de dépassement de budget <br> - Créer ou rejoindre un groupe de dépenses partagées (fonctionnalité future) <br> - Diviser les dépenses et suivre les remboursements |
 |Administrateur|ME|- Gérer les utilisateurs <br> - Surveiller toutes les transactions et l’activité du système <br> - Gérer les groupes partagés <br> - Configurer les paramètres globaux de l’application <br> - Modifier ou réinitialiser les budgets ou les données des utilisateurs si nécessaire|
+
+
+# Diagrams 
+This poject have two main digrams:
+
+1. [Use case diagram](https://lucid.app/lucidchart/217ede86-dbcf-4516-ba52-2f2ec69a63fd/edit?viewport_loc=-2606%2C-858%2C7994%2C3800%2C0_0&invitationId=inv_dc428848-5f7d-4b6d-be30-03ba79a4a1f6)
