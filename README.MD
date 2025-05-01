@@ -73,7 +73,7 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 |Administrateur|ME|- Gérer les utilisateurs <br> - Surveiller toutes les transactions et l’activité du système <br> - Gérer les groupes partagés <br> - Configurer les paramètres globaux de l’application <br> - Modifier ou réinitialiser les budgets ou les données des utilisateurs si nécessaire|
 
 
-# Diagrams 
-This poject have two main digrams:
+# Diagrammes  
+Ce projet comporte deux diagrammes principaux :
 
-1. [Use case diagram](https://lucid.app/lucidchart/217ede86-dbcf-4516-ba52-2f2ec69a63fd/edit?viewport_loc=-2606%2C-858%2C7994%2C3800%2C0_0&invitationId=inv_dc428848-5f7d-4b6d-be30-03ba79a4a1f6)
+1. [Diagramme de cas d'utilisation](https://lucid.app/lucidchart/217ede86-dbcf-4516-ba52-2f2ec69a63fd/edit?viewport_loc=-2606%2C-858%2C7994%2C3800%2C0_0&invitationId=inv_dc428848-5f7d-4b6d-be30-03ba79a4a1f6)
