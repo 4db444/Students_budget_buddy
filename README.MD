@@ -29,24 +29,22 @@ Toute personne (salarié, freelance, jeune actif, etc.) recherchant une applicat
 **Groupes d'amis (fonctionnalité à venir) :**
 Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autres utilisateurs, facilitant ainsi la gestion des dépenses de groupe (voyages, colocation, sorties, séjours).
 
-## 4. Fonctionnalités attendues
-- S’inscrire / Se connecter (authentification sécurisée).
+## 4. Fonctionnalités attendues + temps estimé
 
-- Ajouter des revenus et des dépenses manuellement.
-
-- Définir les dépenses/revenus récurrents (quotidiens, hebdomadaires, mensuels...).
-
-- Catégoriser chaque entrée (loyer, alimentation, transport, etc.).
-
-- Visualiser le solde du mois en temps réel.
-
-- Générer des rapports mensuels avec graphiques.
-
-- Voir l’historique avec filtrage.
-
-- Alertes lorsque certaines limites sont atteintes.
-
-- Responsive design .
+|Fonctionnalités|temps estimé|
+|---------------|:------------:|
+|S’inscrire / Se connecter (authentification sécurisée).|3h|
+|Ajouter des revenus et des dépenses manuellement.|4h|
+|Définir les dépenses/revenus récurrents (quotidiens, mensuels...).|5h|
+|Catégoriser chaque entrée (loyer, alimentation, transport, etc.).|2h|
+|Visualiser le solde du mois en temps réel.|5h|
+|Générer des rapports mensuels avec graphiques.|5h|
+|Voir l’historique avec filtrage.|4h|
+|Alertes lorsque certaines limites sont atteintes.|4h|
+|Créer des groupes avec des amis.|7h|
+|Sélectionner les bénéficiaires et répartir la facture.|8h|
+|Suivre les soldes et régler les comptes.| 8h|
+|Responsive design .|5h|
 
 ## 5. Contraintes techniques
 **Technologies imposées :**
@@ -55,10 +53,7 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 1. **Backend :** laravel (API avec le front-end, sanctume pour l'authentification)
 1. **Autres :** Chart.js ou Recharts pour les graphiques
 
-
-**Base de données prévue :** MySQL ou PostgreSQL
-
-
+**Base de données prévue :** MySQL.
 
 **Mobilité / Responsiveness :** Doit fonctionner parfaitement sur smartphones (priorité), mais aussi accessible sur tablette et PC.
 
@@ -68,7 +63,7 @@ Une prochaine mise à jour vous permettra de partager vos dépenses avec d'autre
 
 |Type d’utilisateur|Description|Rôles / Actions autorisées dans l’application|
 |------------------|-----------|---------------------------------------------|
-|Guest|Un visiteur qui souhaite utiliser rapidement l'application pour partager une facture avec des amis, sans créer de compte|- Accéder à l'application sans inscription complète <br>- Créer un groupe temporaire pour le partage de facture <br>- Saisir et diviser les dépenses <br>- Passer à un compte complet pour sauvegarder les données de manière permanente |
+|Guest|Un visiteur qui souhaite utiliser rapidement l'application pour partager une facture avec des amis, sans créer de compte|- Créer un groupe temporaire pour le partage de facture <br>- Saisir et diviser les dépenses <br>- Passer à un compte complet pour sauvegarder les données de manière permanente |
 |Utilisateur simple|Étudiant, salarié ou freelance souhaitant suivre ses finances personnelles|- Créer un compte / Se connecter <br>- Ajouter/modifier/supprimer des revenus et dépenses <br>- Créer des catégories personnalisées <br>- Générer un rapport mensuel <br>- Visualiser les statistiques par période <br>- Définir des dépenses récurrentes (loyer, abonnements...) <br>- Recevoir des alertes de dépassement de budget <br> - Créer ou rejoindre un groupe de dépenses partagées (fonctionnalité future) <br> - Diviser les dépenses et suivre les remboursements |
 |Administrateur|ME|- Gérer les utilisateurs <br> - Surveiller toutes les transactions et l’activité du système <br> - Gérer les groupes partagés <br> - Configurer les paramètres globaux de l’application <br> - Modifier ou réinitialiser les budgets ou les données des utilisateurs si nécessaire|
 
